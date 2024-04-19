@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             binding.buttonCompartilhar.setOnClickListener {
                 val sendIntent: Intent = Intent().apply {
                     action = Intent.ACTION_SEND
-                    putExtra(Intent.EXTRA_TEXT, "Valor por pessoa: R$ ${valorDividido}")
+                    putExtra(Intent.EXTRA_TEXT, "Valor por pessoa: T$ ${valorDividido}")
                     type = "text/plain"
                 }
 
