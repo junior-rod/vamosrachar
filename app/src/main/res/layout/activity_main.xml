@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DDF4DE"
+    android:background="@color/backgroundColor"
     tools:context=".MainActivity">
 
     <TextView
@@ -27,6 +27,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Valor da conta"
+        android:textColorHint="@color/colorHint"
+        android:padding="20dp"
         android:inputType="number|numberDecimal|numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +43,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Quantidade de pessoas"
+        android:textColorHint="@color/colorHint"
+        android:padding="20dp"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,9 +72,10 @@
         android:layout_marginStart="80dp"
         android:layout_marginBottom="80dp"
         android:clickable="true"
-        app:backgroundTint="#8BC34A"
+        app:backgroundTint="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="Falar"
         app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -83,6 +88,7 @@
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Compartilhar"
         app:srcCompat="@android:drawable/ic_menu_share" />
 
     <TextView
