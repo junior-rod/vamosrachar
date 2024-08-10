@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Vamos Rachar by Williams</string>
+    <string name="app_name">Vamos Rachar por Williams</string>
+    <string name="tv1">Vamos Rachar!</string>
+    <string name="et1">Valor da conta</string>
+    <string name="et2">Quantidade de pessoas</string>
+    <string name="tv2">O resultado será informado aqui.</string>
+    <string name="bt1">Falar</string>
+    <string name="bt2">Compartilhar</string>
+    <string name="tv3">Desenvolvido por Williams Rodrigues</string>
+
 </resources>
