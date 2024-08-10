@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dividamos por Williams</string>
+    <string name="tv1">Dividamos!</string>
+    <string name="et1">Valor de la cuenta</string>
+    <string name="et2">Numero de personas</string>
+    <string name="tv2">El resultado será informado aquí.</string>
+    <string name="bt1">Hablar</string>
+    <string name="bt2">Para compartir</string>
+    <string name="tv3">Desarrollado por Williams Rodrigues</string>
+</resources>
