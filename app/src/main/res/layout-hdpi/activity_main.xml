@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv1"
-        android:textSize="24sp"
+        android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -25,7 +25,7 @@
         android:id="@+id/edit_ValorConta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="35"
         android:hint="@string/et1"
         android:textColorHint="@color/colorHint"
         android:padding="20dp"
@@ -41,7 +41,7 @@
         android:id="@+id/edit_ValorPessoas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:ems="35"
         android:hint="@string/et2"
         android:textColorHint="@color/colorHint"
         android:padding="20dp"
@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv2"
-        android:textSize="20sp"
+        android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,28 +67,28 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button_Falar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="172dp"
         android:layout_marginStart="80dp"
         android:layout_marginBottom="80dp"
         android:clickable="true"
+        android:contentDescription="@string/bt1"
         app:backgroundTint="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/bt1"
         app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button_Compartilhar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="172dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="80dp"
         android:clickable="true"
+        android:contentDescription="@string/bt2"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/bt2"
         app:srcCompat="@android:drawable/ic_menu_share" />
 
     <TextView
@@ -105,8 +105,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="109dp"
-        android:layout_height="104dp"
+        android:layout_width="305dp"
+        android:layout_height="257dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
